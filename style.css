@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ebe4f7; 
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #7091E6;
+}
+a:hover {
+    color: #5975ba;
+}
+
+.navbar {
+    text-align: center;
+    padding: 15px;
+    background-color: #F8F9FA;
+}
+
+.navbar a {
+    padding: 10px 15px;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #7091E6;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smoother hover effect */
+}
+.navbar a:hover {
+    color: #5975ba;
+    border-bottom: 2px solid #7091E6;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #7091E6;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #7091E6;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto auto;
+    display: flex; /* align items horizontally */
+}
+
+#hobbies li {
+    font-size: 18px;
+    display: inline-block;
+    width: 30%; /* Ensure the list items take up a third of the container */
+    text-align: center;
+    vertical-align: top; /* Align the items vertically to the top */
+    margin-bottom: 10px;
+    margin: auto auto;
+}
+
+#hobbies img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Ensure images scale within their containers */
+}
+
+#form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%; /* Input field width */
+    max-width: 400px; /* Limits the input field width */
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto auto;
+    display: block;
+}
+
+#form input[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7091E6; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%; /* Button width */
+    max-width: 200px; /* Limits the button width */
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+#form input[type="button"]:hover {
+    background-color: #3D52A0; 
+}
+
+#pr ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#pr li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: inline-block; /* Make the list items inline */
+    width: 100%;
+    text-align: center; 
+}
+
+#future p {
+    color: #8697C4;
+}
